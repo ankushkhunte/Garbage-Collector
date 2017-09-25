@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated May 30, 2017 7:54:23 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="springHibernate.Item" table="ITEM">
+        <id name="itemId" type="int">
+            <column name="ITEMID" />
+            <generator class="increment" />
+        </id>
+        <property name="vendorName" type="java.lang.String">
+            <column name="VENDORNAME" />
+        </property>
+        <property name="itemName" type="java.lang.String">
+            <column name="ITEMNAME" />
+        </property>
+        <property name="ItemPrice" type="java.lang.String">
+            <column name="ITEMPRICE" />
+        </property>
+        <property name="itemQuantity" type="java.lang.String">
+            <column name="ITEMQUANTITY" />
+        </property>
+        <property name="area" type="java.lang.String">
+            <column name="AREA" />
+        </property>
+    </class>
+</hibernate-mapping>

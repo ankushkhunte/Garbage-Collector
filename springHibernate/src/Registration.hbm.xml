@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated May 27, 2017 12:54:49 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="springHibernate.Registration" table="REGISTRATION">
+        <id name="userName" type="java.lang.String">
+            <column name="USERNAME" />
+            <generator class="assigned" />
+        </id>
+        <property name="passWord" type="java.lang.String">
+            <column name="PASSWORD" />
+        </property>
+        <property name="email" type="java.lang.String">
+            <column name="EMAIL" />
+        </property>
+        <property name="mobNo" type="java.lang.String">
+            <column name="MOBNO" />
+        </property>
+        <property name="city" type="java.lang.String">
+            <column name="CITY" />
+        </property>
+        <property name="pinCode" type="int">
+            <column name="PINCODE" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 3, 2017 10:29:30 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="springHibernate.Feedback" table="FEEDBACK">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="increment" />
+        </id>
+        <property name="userName" type="java.lang.String">
+            <column name="USERNAME" />
+        </property>
+        <property name="vendorName" type="java.lang.String">
+            <column name="VENDORNAME" />
+        </property>
+        <property name="feedback" type="java.lang.String">
+            <column name="FEEDBACK" />
+        </property>
+        <property name="description" type="java.lang.String">
+            <column name="DESCRIPTION" />
+        </property>
+    </class>
+</hibernate-mapping>

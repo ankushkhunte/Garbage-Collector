@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+
+	
+	
+	<bean id="viewResolver" name="viewResolver"
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/"></property>
+		<property name="suffix" value=".jsp"></property>
+	</bean>
+	
+	
+   <bean name="/*.html" class="com.controllers.Xyz"></bean> 
+	<bean name="/validate.html" class="com.controllers.Test"></bean>
+	<bean name="/welcome.html" class="com.controllers.LoginController"></bean>
+	<bean name="/forgotpass.html" class="com.controllers.ForgotPasswordController"></bean>
+	<bean name="/updatepass.html" class="com.controllers.UpdatePasswordController"></bean>
+	<bean name="/forgotemail.html" class="com.controllers.ForgotEmailController"></bean>
+	<bean name="/vregister.html" class="com.controllers.TestVcontroller"></bean>
+	<bean name="/vlogin.html" class="com.controllers.VloginController"></bean>
+	<bean name="/vforgotpass.html" class="com.controllers.VforgotpassController"></bean>
+	<bean name="/vupdatepass.html" class="com.controllers.VupdatepassController"></bean>
+	<bean name="/alogin.html" class="com.controllers.AloginController"></bean>
+	<bean name="/aforgotpass.html" class="com.controllers.AforgotpassController"></bean>
+	<bean name="/aupdatepass.html" class="com.controllers.AupdatepassController"></bean>
+	<bean name="/vendoritem.html" class="com.controllers.VitemController"></bean>
+	<bean name="/vfiilldetail.html" class="com.controllers.VitemSaveController"></bean>
+	<bean name="/vfiilldetail1.html" class="com.controllers.VitemSaveController1"></bean>
+	<bean name="/vfiilldetail3.html" class="com.controllers.VitemSaveController3"></bean>
+	<bean name="/vfiilldetail4.html" class="com.controllers.VitemSaveController4"></bean>
+	<bean name="/vfiilldetail5.html" class="com.controllers.VitemSaveController5"></bean>
+	<bean name="/vfiilldetail6.html" class="com.controllers.VitemSaveController6"></bean>
+	<bean name="/displayvendoritem.html" class="com.controllers.Vdisplayitems"></bean>
+	<bean name="/vupdatedetails.html" class="com.controllers.VupdateitemsController"></bean>
+	<bean name="/vupdatedetails1.html" class="com.controllers.VupdateitemsController1"></bean>
+	<bean name="/vupdatedetails2.html" class="com.controllers.VupdateitemsController1"></bean>
+	<bean name="/vupdatedetails3.html" class="com.controllers.VupdateitemsController1"></bean>
+	<bean name="/vupdatedetails4.html" class="com.controllers.VupdateitemsController1"></bean>
+	<bean name="/vupdatedetails5.html" class="com.controllers.VupdateitemsController1"></bean>
+	<bean name="/vupdatedetails6.html" class="com.controllers.VupdateitemsController1"></bean>
+	<bean name="/vdeleteitems.html" class="com.controllers.VdeleteitemsController"></bean>
+	<bean name="/vviewprofile.html" class="com.controllers.VviewprofileController"></bean>
+	<bean name="/uvendorsearch.html" class="com.controllers.UvendorSearchController"></bean>
+	<bean name="/bookappointment.html" class="com.controllers.UbookappointmentController"></bean>
+	<bean name="/finalbookappointment.html" class="com.controllers.UfbookappointmentController"></bean>
+	<bean name="/uviewbookedappoinment.html" class="com.controllers.UviewappoinmentsController"></bean>
+	<bean name="/uviewprofile.html" class="com.controllers.UviewprofileController"></bean>
+	<bean name="/ufeedback.html" class="com.controllers.UfeedbackController"></bean>
+	<bean name="/ufinalfeedback.html" class="com.controllers.UfinalfeedbackController"></bean>
+	<bean name="/vviewfeedback.html" class="com.controllers.VviewfeedbackController"></bean>
+	<bean name="/vviewappoinments.html" class="com.controllers.VviewappoinmentsController"></bean>
+	
+	
+	
+</beans>

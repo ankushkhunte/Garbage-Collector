@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 3, 2017 11:17:36 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="springHibernate.Appointment" table="APPOINTMENT">
+        <id name="appId" type="int">
+            <column name="APPID" />
+            <generator class="increment" />
+        </id>
+        <property name="userName" type="java.lang.String">
+            <column name="USERNAME" />
+        </property>
+        <property name="fullName" type="java.lang.String">
+            <column name="FULLNAME" />
+        </property>
+        <property name="email" type="java.lang.String">
+            <column name="EMAIL" />
+        </property>
+        <property name="mobNo" type="java.lang.String">
+            <column name="MOBNO" />
+        </property>
+        <property name="vendorName" type="java.lang.String">
+            <column name="VENDORNAME" />
+        </property>
+        <property name="itemName" type="java.lang.String">
+            <column name="ITEMNAME" />
+        </property>
+        <property name="price" type="java.lang.String">
+            <column name="PRICE" />
+        </property>
+        <property name="qtyRange" type="java.lang.String">
+            <column name="QTYRANGE" />
+        </property>
+        <property name="bdate" type="java.lang.String">
+            <column name="BDATE" />
+        </property>
+        <property name="time" type="java.lang.String">
+            <column name="TIME" />
+        </property>
+        <property name="address" type="java.lang.String">
+            <column name="ADDRESS" />
+        </property>
+        <property name="vemail" type="java.lang.String">
+            <column name="VEMAIL" />
+        </property>
+        <property name="vmobNo" type="java.lang.String">
+            <column name="VMOBNO" />
+        </property>
+    </class>
+</hibernate-mapping>
